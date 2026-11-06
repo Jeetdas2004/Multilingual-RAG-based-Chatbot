@@ -1,0 +1,91 @@
+{
+  "name": "Government Polytechnic College, Ajmer",
+  "code": "gpcajmer",
+  "city": "Ajmer",
+  "established": 1958,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur & Approved by AICTE, New Delhi",
+  "min_score": 85,
+  "website": "https://hte.rajasthan.gov.in/college/gpcajmer",
+  "contact": {
+    "address": "Makhupura, Nasirabad Road, Ajmer, Rajasthan - 305002",
+    "phone": "+91-145-2690244, 2690255",
+    "email": "gpc.ajmer@rajasthan.gov.in",
+    "helpline": "1800-180-6127"
+  },
+  "overview": "Government Polytechnic College, Ajmer is one of the oldest and most premier polytechnic institutions in Rajasthan. Located on Nasirabad Road in Makhupura, Ajmer, the campus spans over 40 acres with modern laboratories, central workshop, smart classrooms, and an extensive technical library.",
+  "branches": [
+    {
+      "branch": "Computer Science & Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 82
+    },
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 78
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 80
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 75
+    },
+    {
+      "branch": "Electronics Engineering",
+      "intake": 40,
+      "duration": "3 Years",
+      "min_cutoff_percent": 72
+    },
+    {
+      "branch": "Automobile Engineering",
+      "intake": 40,
+      "duration": "3 Years",
+      "min_cutoff_percent": 70
+    }
+  ],
+  "admission_process": "Admissions are conducted through the Centralized Admission Process organized by DTE (Department of Technical Education), Rajasthan through the online portal (hte.rajasthan.gov.in). Candidates must submit their 10th board marksheet, domicile certificate, and category documents during counseling rounds. Direct 2nd Year Lateral Entry is available for ITI diploma holders and 12th Science (PCM/Vocational) students.",
+  "eligibility": "Regular 1st Year: Passed Class 10th Secondary examination from RBSE/CBSE or equivalent board with minimum 35% marks having Science and Mathematics as compulsory subjects. Lateral Entry (2nd Year): 12th Science with Physics, Chemistry, Math or 10th + 2-year ITI in relevant trade.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum (Government Aided Seat)",
+    "tuition_fee_sfs": "₹21,000 per annum (Self-Financed Seat)",
+    "development_fee": "₹1,500 per annum",
+    "caution_money": "₹1,000 (One-time, 100% refundable)",
+    "exam_fee": "₹1,200 per semester",
+    "fee_exemptions": "Full tuition fee waiver for all female candidates in government seats, and complete fee reimbursement for SC/ST and BPL cardholders under State Government schemes."
+  },
+  "scholarships": [
+    "Mukhyamantri Uchh Shiksha Chhatravriti Yojana: ₹5,000 annually for meritorious students ranking in top percentiles.",
+    "Post-Matric Scholarship (SJED Rajasthan): Up to 100% tuition and maintenance fee reimbursement for SC, ST, OBC (BPL), and EWS students.",
+    "AICTE Pragati Scholarship for Girls: ₹50,000 per year assistance for tuition and college expenses.",
+    "AICTE Saksham Scholarship: ₹50,000 per year for specially-abled students with >40% disability.",
+    "Labor Welfare Board (BOCW) Scholarship for children of registered construction workers."
+  ],
+  "hostel_facilities": "The college offers separate on-campus hostels for boys (150 capacity) and girls (80 capacity). Facilities include 24x7 security, RO filtered drinking water, high-speed Wi-Fi, hygienic cooperative mess, indoor badminton court, gym, and reading rooms. Hostel room rent is approximately ₹2,500 to ₹3,500 per year plus monthly mess charges (approx ₹2,000 - ₹2,500/month).",
+  "placements": {
+    "average_package": "₹2.80 - ₹3.60 LPA",
+    "highest_package": "₹5.50 LPA",
+    "placement_rate": "82%",
+    "top_recruiters": [
+      "Tata Motors",
+      "Maruti Suzuki",
+      "L&T Construction",
+      "Hero MotoCorp",
+      "Jindal Steel",
+      "Havells India",
+      "Subros Limited",
+      "Ashok Leyland",
+      "Daikin",
+      "Adani Power"
+    ]
+  },
+  "campus_facilities": "Fully equipped Computer Labs with 100 Mbps fiber connectivity, Mechanical CAD/CAM lab, CNC machine workshop, Surveying lab, Electrical machines lab, Central library with over 25,000 books and journals, Sports complex (cricket, volleyball, basketball), Auditorium, Canteen, and active NSS unit."
+}

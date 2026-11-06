@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Pragya — Rajasthan Technical Education AI Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts & Material Symbols -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24..48,400..700,0..1,-50..200" />
+</head>
+<body class="show-chatbot">
+
+  <!-- Floating Chatbot Toggler Button -->
+  <button class="chatbot-toggler" title="Open Pragya Assistant" aria-label="Toggle Chatbot">
+    <span class="material-symbols-rounded icon-chat">chat_bubble</span>
+    <span class="material-symbols-rounded icon-close">close</span>
+  </button>
+
+  <!-- Pragya Chatbot Widget Container -->
+  <div class="chatbot-window">
+    
+    <!-- Top Header matching Expected Outcome -->
+    <header class="chatbot-header">
+      <div class="header-left">
+        <button class="icon-btn menu-btn" id="menu-btn" title="Information Menu" aria-label="Menu">
+          <span class="material-symbols-rounded">menu</span>
+        </button>
+        <div class="pragya-emblem" title="Pragya AI">
+          <svg viewBox="0 0 100 100" class="logo-svg">
+            <circle cx="50" cy="50" r="48" fill="#ffffff" stroke="#c62828" stroke-width="4"/>
+            <circle cx="50" cy="50" r="42" fill="none" stroke="#1565c0" stroke-width="2"/>
+            <path d="M50 25 L75 38 L50 50 L25 38 Z" fill="#c62828"/>
+            <path d="M72 41 L72 58 C72 58 64 68 50 68 C36 68 28 58 28 58 L28 41 L50 52 Z" fill="#1565c0"/>
+            <circle cx="50" cy="50" r="5" fill="#fbc02d"/>
+            <text x="50" y="85" font-family="'Outfit', sans-serif" font-size="11" font-weight="bold" fill="#c62828" text-anchor="middle" letter-spacing="1">PRAGYA</text>
+          </svg>
+        </div>
+        <div class="header-titles">
+          <h2>Pragya</h2>
+          <span class="header-tag">DTE Rajasthan • AI Sahayak</span>
+        </div>
+      </div>
+      
+      <div class="header-right">
+        <!-- Rajasthan / Govt Emblem -->
+        <div class="rajasthan-emblem" title="Government of Rajasthan">
+          <svg viewBox="0 0 100 100" class="emblem-svg">
+            <circle cx="50" cy="50" r="48" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+            <path d="M45 20 H55 V42 H45 Z" fill="#b71c1c"/>
+            <path d="M35 32 H65 V36 H35 Z" fill="#f57f17"/>
+            <circle cx="50" cy="52" r="14" fill="none" stroke="#0d47a1" stroke-width="3"/>
+            <!-- Ashoka Chakra spokes -->
+            <line x1="50" y1="38" x2="50" y2="66" stroke="#0d47a1" stroke-width="2"/>
+            <line x1="36" y1="52" x2="64" y2="52" stroke="#0d47a1" stroke-width="2"/>
+            <line x1="40" y1="42" x2="60" y2="62" stroke="#0d47a1" stroke-width="2"/>
+            <line x1="40" y1="62" x2="60" y2="42" stroke="#0d47a1" stroke-width="2"/>
+            <text x="50" y="82" font-family="sans-serif" font-size="9" font-weight="bold" fill="#1b5e20" text-anchor="middle">सत्यमेव जयते</text>
+            <text x="50" y="93" font-family="sans-serif" font-size="7" fill="#333" text-anchor="middle">राज. सरकार</text>
+          </svg>
+        </div>
+        <button class="icon-btn close-btn" id="close-btn" title="Close" aria-label="Close Widget">
+          <span class="material-symbols-rounded">close</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Info / Portal Modal Drawer -->
+    <div class="info-drawer" id="info-drawer">
+      <div class="drawer-header">
+        <h3>Department of Technical Education</h3>
+        <button class="icon-btn" id="drawer-close-btn"><span class="material-symbols-rounded">close</span></button>
+      </div>
+      <div class="drawer-body">
+        <p><strong>Government of Rajasthan</strong></p>
+        <p>Pragya is your official bilingual AI assistant for admissions, scholarships, fees, cutoffs, and placements across Rajasthan Government Polytechnic and Engineering institutions.</p>
+        <hr>
+        <div class="drawer-links">
+          <a href="https://hte.rajasthan.gov.in" target="_blank" rel="noreferrer">🌐 DTE Rajasthan Official Portal</a>
+          <a href="https://sso.rajasthan.gov.in" target="_blank" rel="noreferrer">🔑 SSO Rajasthan Portal</a>
+          <a href="tel:18001806127">📞 Toll-Free Helpline: 1800-180-6127</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Widget Content Area -->
+    <main class="chatbot-main" id="chatbot-main">
+      
+      <!-- VIEW 1: Dashboard View (Matches Expected_Outcome.png) -->
+      <section class="dashboard-view" id="dashboard-view">
+        
+        <!-- CARD 1: Predict your College -->
+        <div class="card predictor-card">
+          <div class="predictor-left">
+            <h3 class="card-title-light">Predict your College</h3>
+            <div class="predictor-input-wrap">
+              <input 
+                type="number" 
+                id="score-input" 
+                placeholder="Enter Your Score.." 
+                min="0" 
+                max="100" 
+                step="0.1" 
+                aria-label="Score Percentage"
+              />
+              <button id="predict-btn" class="pill-submit-btn" title="Predict Colleges">
+                <span class="material-symbols-rounded">arrow_forward</span>
+              </button>
+            </div>
+            <span class="input-subtext">Enter 10th / 12th Board % or JEE Score</span>
+          </div>
+
+          <div class="predictor-right">
+            <h4 class="predictor-right-title">Top Colleges</h4>
+            <div class="top-colleges-list" id="top-colleges-list">
+              <div class="college-item">
+                <span class="college-name">GPC, Ajmer</span>
+                <span class="college-badge">82%</span>
+              </div>
+              <div class="college-item">
+                <span class="college-name">GPC, Jaipur</span>
+                <span class="college-badge">86%</span>
+              </div>
+              <div class="college-item">
+                <span class="college-name">GPC, Kota</span>
+                <span class="college-badge">80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2: Top News For You -->
+        <div class="card news-card">
+          <div class="news-header">
+            <h3 class="card-title-dark">Top News For You</h3>
+          </div>
+
+          <div class="news-slider">
+            <button class="carousel-arrow prev-btn" id="news-prev-btn" aria-label="Previous News">
+              <span class="material-symbols-rounded">chevron_left</span>
+            </button>
+
+            <div class="news-content-box" id="news-content-box">
+              <span class="news-category-badge" id="news-category">Admissions</span>
+              <h4 class="news-title" id="news-title">DTE Rajasthan Polytechnic Admissions 2026 Announced</h4>
+              <p class="news-desc" id="news-desc">Department of Technical Education opens online registration for 1st Year Diploma and Lateral Entry 2nd Year courses on hte.rajasthan.gov.in.</p>
+              <div class="news-indicator-bar" id="news-indicator-bar">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+              </div>
+            </div>
+
+            <button class="carousel-arrow next-btn" id="news-next-btn" aria-label="Next News">
+              <span class="material-symbols-rounded">chevron_right</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Query Suggestion Chips -->
+        <div class="quick-prompts-section">
+          <span class="quick-prompts-title">Popular Questions:</span>
+          <div class="chips-scroll">
+            <button class="chip-btn" data-query="What is the fee structure and concession for female students?">
+              💰 Fee & Girls Concession
+            </button>
+            <button class="chip-btn" data-query="What is the admission eligibility for polytechnic diploma?">
+              📝 Admission Eligibility
+            </button>
+            <button class="chip-btn" data-query="What hostel and mess facilities are available?">
+              🏠 Hostel & Mess
+            </button>
+            <button class="chip-btn" data-query="What are the top placement companies and packages?">
+              💼 Placements & Packages
+            </button>
+            <button class="chip-btn" data-query="What engineering branches are offered?">
+              🎓 Available Branches
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 2: Interactive Chat View -->
+      <section class="chat-view" id="chat-view" style="display: none;">
+        <!-- Chat Navigation Bar -->
+        <div class="chat-nav-bar">
+          <button class="back-to-dash-btn" id="back-to-dash-btn">
+            <span class="material-symbols-rounded">arrow_back</span>
+            <span>Dashboard</span>
+          </button>
+          <div class="chat-context-pill">
+            <span class="pulse-dot"></span>
+            <span id="active-college-indicator">GPC, Ajmer</span>
+          </div>
+          <button class="clear-chat-btn" id="clear-chat-btn" title="Clear Chat">
+            <span class="material-symbols-rounded">delete_sweep</span>
+          </button>
+        </div>
+
+        <!-- Chat Message Log -->
+        <ul class="chatbox" id="chatbox">
+          <li class="chat incoming">
+            <div class="bot-avatar">
+              <span class="material-symbols-rounded">smart_toy</span>
+            </div>
+            <div class="chat-bubble">
+              <p>नमस्ते! Hello! I am <strong>Pragya</strong>, your AI Assistant for Rajasthan Technical Education.<br>How may I assist you with admissions, fees, colleges, hostels, or scholarships today?</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <!-- Bottom Controls Area matching Expected Outcome -->
+    <footer class="chatbot-footer">
+      
+      <!-- Top Pills: Select College & Select Language -->
+      <div class="selectors-row">
+        <div class="select-wrapper">
+          <select id="college-select" aria-label="Select College">
+            <option value="gpcajmer">GPC, Ajmer</option>
+            <option value="gpcalwar">GPC, Alwar</option>
+            <option value="gpcjaipur">GPC, Jaipur</option>
+            <option value="gpcjodhpur">GPC, Jodhpur</option>
+            <option value="gpckota">GPC, Kota</option>
+            <option value="gpcbikaner">GPC, Bikaner</option>
+            <option value="gpcbanswara">GPC, Banswara</option>
+            <option value="gpcbaran">GPC, Baran</option>
+            <option value="gpcbarmer">GPC, Barmer</option>
+            <option value="gpcbharatpur">GPC, Bharatpur</option>
+            <option value="gpcbhilwara">GPC, Bhilwara</option>
+            <option value="gpcbundi">GPC, Bundi</option>
+            <option value="gpcchittorgarh">GPC, Chittorgarh</option>
+            <option value="general_rajasthan_dte">All DTE Colleges</option>
+          </select>
+          <span class="material-symbols-rounded select-arrow">expand_more</span>
+        </div>
+
+        <div class="select-wrapper">
+          <select id="language-select" aria-label="Select Language">
+            <option value="English">English</option>
+            <option value="Hindi">हिन्दी (Hindi)</option>
+            <option value="Rajasthani">राजस्थानी (Rajasthani)</option>
+          </select>
+          <span class="material-symbols-rounded select-arrow">expand_more</span>
+        </div>
+      </div>
+
+      <!-- Chat Input Field -->
+      <div class="chat-input-bar">
+        <input 
+          type="text" 
+          id="chat-input" 
+          placeholder="Enter your Text...." 
+          spellcheck="false" 
+          autocomplete="off" 
+          aria-label="Chat input"
+        />
+        
+        <!-- Speech-to-Text Microphone Button -->
+        <button class="input-btn mic-btn" id="mic-btn" title="Voice Input (Speak)">
+          <span class="material-symbols-rounded mic-icon">mic</span>
+        </button>
+
+        <!-- Send Paper Airplane Button -->
+        <button class="input-btn send-btn" id="send-btn" title="Send Query" aria-label="Send">
+          <span class="material-symbols-rounded send-icon">send</span>
+        </button>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

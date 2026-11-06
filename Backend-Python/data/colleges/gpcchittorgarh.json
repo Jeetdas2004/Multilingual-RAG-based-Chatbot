@@ -1,0 +1,65 @@
+{
+  "name": "Government Polytechnic College, Chittorgarh",
+  "code": "gpcchittorgarh",
+  "city": "Chittorgarh",
+  "established": 2006,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 73,
+  "website": "https://hte.rajasthan.gov.in/college/gpcchittorgarh",
+  "contact": {
+    "address": "Kapasan Road, Chittorgarh, Rajasthan - 312001",
+    "phone": "+91-1472-245678",
+    "email": "gpc.chittorgarh@rajasthan.gov.in"
+  },
+  "overview": "Located in Chittorgarh near major cement manufacturing clusters, providing specialized mining and mechanical engineering exposure.",
+  "branches": [
+    {
+      "branch": "Mining Engineering",
+      "intake": 40,
+      "duration": "3 Years",
+      "min_cutoff_percent": 71
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 72
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 73
+    },
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 70
+    }
+  ],
+  "admission_process": "DTE Rajasthan centralized counseling.",
+  "eligibility": "10th pass with 35% with Science and Math.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum"
+  },
+  "scholarships": [
+    "SJED Post-Matric",
+    "Mukhyamantri Scholarship",
+    "AICTE Pragati"
+  ],
+  "hostel_facilities": "Boys hostel, girls hostel, mess facility.",
+  "placements": {
+    "average_package": "₹2.80 LPA",
+    "highest_package": "₹5.10 LPA",
+    "top_recruiters": [
+      "Birla Cement Works",
+      "Chanderiya Lead-Zinc Smelter (Hindustan Zinc)",
+      "UltraTech",
+      "Wonder Cement"
+    ]
+  },
+  "campus_facilities": "Mining exploration lab, geology lab, mechanical workshop, library."
+}

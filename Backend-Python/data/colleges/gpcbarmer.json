@@ -1,0 +1,65 @@
+{
+  "name": "Government Polytechnic College, Barmer",
+  "code": "gpcbarmer",
+  "city": "Barmer",
+  "established": 2008,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 70,
+  "website": "https://hte.rajasthan.gov.in/college/gpcbarmer",
+  "contact": {
+    "address": "NH-68, Jaisalmer Road, Barmer, Rajasthan - 344001",
+    "phone": "+91-2982-220100",
+    "email": "gpc.barmer@rajasthan.gov.in"
+  },
+  "overview": "Located near the Thar petroleum basin and renewable energy solar corridors, offering students specialized pathways in petroleum refinery, mechanical, and electrical engineering.",
+  "branches": [
+    {
+      "branch": "Petroleum Engineering & Refining",
+      "intake": 40,
+      "duration": "3 Years",
+      "min_cutoff_percent": 72
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 70
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 68
+    },
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 69
+    }
+  ],
+  "admission_process": "DTE Rajasthan online counseling based on 10th marks.",
+  "eligibility": "10th pass with 35% marks.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum"
+  },
+  "scholarships": [
+    "SJED Rajasthan Post-Matric",
+    "Mukhyamantri Scholarship",
+    "AICTE Pragati"
+  ],
+  "hostel_facilities": "Hostel with dining and solar power.",
+  "placements": {
+    "average_package": "₹3.00 LPA",
+    "highest_package": "₹5.80 LPA",
+    "top_recruiters": [
+      "HPCL Rajasthan Refinery (HRRL)",
+      "Cairn India",
+      "JSW Energy",
+      "Suzlon"
+    ]
+  },
+  "campus_facilities": "Petroleum testing lab, heavy machinery workshop, computer center, library."
+}

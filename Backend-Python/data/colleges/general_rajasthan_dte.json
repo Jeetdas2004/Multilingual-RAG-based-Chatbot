@@ -1,0 +1,30 @@
+{
+  "name": "Department of Technical Education (DTE), Government of Rajasthan",
+  "code": "general_rajasthan_dte",
+  "city": "Jaipur / Jodhpur",
+  "type": "Government Higher & Technical Education Authority",
+  "website": "https://hte.rajasthan.gov.in",
+  "contact": {
+    "address": "W-6, Residency Road, Jodhpur - 342032 / Technical Education Directorate, Jaipur",
+    "phone": "+91-291-2434314, 2636572",
+    "email": "dte_raj@yahoo.com, dte-rj@nic.in",
+    "helpline": "1800-180-6127 (Toll-Free Rajasthan Student Helpline)"
+  },
+  "overview": "The Department of Technical Education (DTE), Government of Rajasthan oversees government and private polytechnic colleges, engineering institutions, and technical universities across the state. It handles centralized admissions, examinations (via BTER Jodhpur), curriculum updates, and student welfare schemes.",
+  "centralized_admission_rules": [
+    "Eligibility: Minimum 35% aggregate marks in 10th standard with Science and Mathematics.",
+    "Application Portal: hte.rajasthan.gov.in / SSO Portal (sso.rajasthan.gov.in).",
+    "Reservation: SC 16%, ST 12%, OBC 21%, EWS 10%, MBC 5%, PwD 5%, Women 30% horizontal reservation in all categories.",
+    "Lateral Entry: Direct admission into 2nd year for 12th Science (PCM) and 2-year ITI trade certificate holders.",
+    "No Upper Age Limit for polytechnic diploma admissions in Rajasthan."
+  ],
+  "fee_policy": "Under Rajasthan State Government rules, tuition fee is completely WAIVED for all female students in Government seats across all Government Polytechnic Colleges. Tuition fee is also waived/reimbursed for SC, ST, MBC, and BPL cardholders.",
+  "key_scholarship_schemes": [
+    "Mukhyamantri Uchh Shiksha Chhatravriti Yojana: ₹5,000/year for students in top percentiles.",
+    "Post-Matric Scholarship Scheme (Social Justice and Empowerment Dept): 100% reimbursement of tuition, development and non-refundable fees.",
+    "AICTE Pragati Scheme: ₹50,000/year for girl students.",
+    "AICTE Saksham Scheme: ₹50,000/year for specially abled students.",
+    "Devnarayan Gurukul Yojana & MBC Scholarships."
+  ],
+  "engineering_admissions_reap": "Undergraduate B.Tech/B.E. admissions in Rajasthan are governed by REAP (Rajasthan Engineering Admission Process) conducted by CEG (Center for Electronic Governance) Jaipur on behalf of Rajasthan Technical University (RTU) Kota and MBM University Jodhpur. Admissions are based on JEE Main scores and Class 12 PCM percentages."
+}
