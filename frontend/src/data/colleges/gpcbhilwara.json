@@ -1,0 +1,66 @@
+{
+  "name": "Government Polytechnic College, Bhilwara",
+  "code": "gpcbhilwara",
+  "city": "Bhilwara",
+  "established": 1988,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 74,
+  "website": "https://hte.rajasthan.gov.in/college/gpcbhilwara",
+  "contact": {
+    "address": "Pur Road, Bhilwara, Rajasthan - 311001",
+    "phone": "+91-1482-240123",
+    "email": "gpc.bhilwara@rajasthan.gov.in"
+  },
+  "overview": "Situated in Bhilwara, the Textile City of India, offering specialized textile technology and core engineering disciplines.",
+  "branches": [
+    {
+      "branch": "Textile Technology & Engineering",
+      "intake": 40,
+      "duration": "3 Years",
+      "min_cutoff_percent": 70
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 73
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 74
+    },
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 72
+    }
+  ],
+  "admission_process": "DTE Rajasthan online counseling.",
+  "eligibility": "10th pass with 35% marks.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum"
+  },
+  "scholarships": [
+    "SJED Post-Matric",
+    "Mukhyamantri Scholarship",
+    "AICTE Pragati"
+  ],
+  "hostel_facilities": "Boys hostel, girls hostel, mess, sports room.",
+  "placements": {
+    "average_package": "₹2.80 LPA",
+    "highest_package": "₹5.00 LPA",
+    "top_recruiters": [
+      "Sangam India Ltd",
+      "BSL Ltd",
+      "Mayur Suitings",
+      "Jindal Saw",
+      "L&T"
+    ]
+  },
+  "campus_facilities": "Textile testing lab, spinning and weaving workshop, CAD lab, central library."
+}

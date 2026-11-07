@@ -268,10 +268,26 @@ pip install -r requirements.txt
 uvicorn api:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-### 4. Launch Frontend
+### 4. Launch Frontend (Local)
 - Simply double-click `open_frontend.bat` or open `frontend-v2/index.html` in your browser.
 - Switch between **English** and **हिन्दी** using the dropdown selector.
 - Ask questions via text or voice.
+
+### 5. 🌐 Deploy to Vercel (Public Web Access)
+Pragya is fully configured for zero-configuration, production-ready deployment on **Vercel**:
+1. Push your code to GitHub:
+   ```bash
+   git add .
+   git commit -m "feat: add Vercel serverless deployment support"
+   git push origin main
+   ```
+2. Go to [vercel.com](https://vercel.com) and click **"Add New" -> "Project"**.
+3. Select your GitHub repository.
+4. In the Project Configuration:
+   - **Framework Preset**: Next.js (auto-detected)
+   - **Root Directory**: `frontend` (or root using the provided `vercel.json`)
+   - **Environment Variables (Optional)**: `GEMINI_API_KEY` = your Google Gemini API Key
+5. Click **Deploy**. Your student portal and multilingual AI assistant will be live at `https://your-app.vercel.app`!
 
 ---
 

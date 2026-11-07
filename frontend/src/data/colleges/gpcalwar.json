@@ -1,0 +1,80 @@
+{
+  "name": "Government Polytechnic College, Alwar",
+  "code": "gpcalwar",
+  "city": "Alwar",
+  "established": 1960,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur & Approved by AICTE",
+  "min_score": 80,
+  "website": "https://hte.rajasthan.gov.in/college/gpcalwar",
+  "contact": {
+    "address": "MIA Extension, Alwar, Rajasthan - 301030",
+    "phone": "+91-144-2881234",
+    "email": "gpc.alwar@rajasthan.gov.in",
+    "helpline": "1800-180-6127"
+  },
+  "overview": "Government Polytechnic College, Alwar is located strategically near the Matsya Industrial Area (MIA), providing students with unmatched industry exposure, regular industrial visits, and hands-on apprenticeship opportunities across leading automotive and manufacturing giants in NCR.",
+  "branches": [
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 76
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 77
+    },
+    {
+      "branch": "Computer Science & Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 79
+    },
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 74
+    },
+    {
+      "branch": "Chemical Engineering",
+      "intake": 30,
+      "duration": "3 Years",
+      "min_cutoff_percent": 68
+    }
+  ],
+  "admission_process": "Admissions through DTE Rajasthan centralized online counseling based on 10th standard merit list. Registration starts typically in June-July each year on the SSO Rajasthan portal (sso.rajasthan.gov.in). Lateral entry counseling is held separately.",
+  "eligibility": "10th Class passed with minimum 35% marks from recognized board with Science & Math. Lateral Entry requires 12th PCM or 2-year ITI trade certificate.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum",
+    "development_fee": "₹1,500 per annum",
+    "caution_money": "₹1,000 (Refundable)",
+    "fee_exemptions": "100% tuition waiver for female students and SC/ST candidates as per Rajasthan DTE norms."
+  },
+  "scholarships": [
+    "Post-Matric Scholarship Scheme by Social Justice Department Rajasthan.",
+    "Mukhyamantri Uchh Shiksha Chhatravriti (₹5,000 per year).",
+    "AICTE Pragati Scholarship for single girl child or girls in technical diploma (₹50,000/year).",
+    "BOCW Labor Department Child Education Assistance."
+  ],
+  "hostel_facilities": "Separate Boys and Girls hostels available with 120-bed capacity for boys and 60-bed capacity for girls. Mess facility managed cooperatively, round-the-clock security guards, recreation room with TV, and Wi-Fi.",
+  "placements": {
+    "average_package": "₹2.60 - ₹3.40 LPA",
+    "highest_package": "₹5.00 LPA",
+    "placement_rate": "86%",
+    "top_recruiters": [
+      "Havells India (Alwar plant)",
+      "Hero MotoCorp Neemrana",
+      "Honda Cars Alwar",
+      "Saint-Gobain Glass",
+      "Eicher Engines",
+      "Parle Products",
+      "Relaxo Footwears"
+    ]
+  },
+  "campus_facilities": "Specialized Chemical testing laboratory, Fluid mechanics lab, Automobile engine test rigs, Computer lab with 120 systems, Central workshop with foundry, welding, carpentry, and fitting sections, Sports ground, Dispensary."
+}

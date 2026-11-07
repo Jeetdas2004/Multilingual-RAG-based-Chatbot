@@ -1,0 +1,73 @@
+{
+  "name": "Government Polytechnic College, Jodhpur",
+  "code": "gpcjodhpur",
+  "city": "Jodhpur",
+  "established": 1958,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 83,
+  "website": "https://hte.rajasthan.gov.in/college/gpcjodhpur",
+  "contact": {
+    "address": "Residency Road, Jodhpur, Rajasthan - 342011",
+    "phone": "+91-291-2434314",
+    "email": "gpc.jodhpur@rajasthan.gov.in",
+    "helpline": "1800-180-6127"
+  },
+  "overview": "Located in the historic Sun City of Jodhpur, this college is located close to MBM University and premier research institutions like CAZRI and DRDO, offering students great mentorship and training.",
+  "branches": [
+    {
+      "branch": "Computer Science & Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 83
+    },
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 79
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 81
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 77
+    },
+    {
+      "branch": "Petroleum & Chemical Engineering",
+      "intake": 30,
+      "duration": "3 Years",
+      "min_cutoff_percent": 75
+    }
+  ],
+  "admission_process": "Admissions through DTE Rajasthan online counseling based on 10th marks.",
+  "eligibility": "10th with Science & Math min 35%.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum"
+  },
+  "scholarships": [
+    "SJED Post-Matric",
+    "Mukhyamantri Uchh Shiksha",
+    "AICTE Pragati & Saksham"
+  ],
+  "hostel_facilities": "On-campus boys and girls hostels with hygienic mess, solar power, security.",
+  "placements": {
+    "average_package": "₹3.00 - ₹3.80 LPA",
+    "highest_package": "₹6.00 LPA",
+    "top_recruiters": [
+      "Cairn Oil & Gas",
+      "Tata Motors",
+      "Jodhpur Handicrafts Consortium",
+      "L&T ECC",
+      "Jindal Steel"
+    ]
+  },
+  "campus_facilities": "Petroleum testing laboratory, Advanced structural engineering lab, Computer center with 150 PCs, Library."
+}

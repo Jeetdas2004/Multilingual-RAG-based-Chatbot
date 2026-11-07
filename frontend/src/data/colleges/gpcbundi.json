@@ -1,0 +1,58 @@
+{
+  "name": "Government Polytechnic College, Bundi",
+  "code": "gpcbundi",
+  "city": "Bundi",
+  "established": 2008,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 77,
+  "website": "https://hte.rajasthan.gov.in/college/gpcbundi",
+  "contact": {
+    "address": "Silor Road, Bundi, Rajasthan - 323001",
+    "phone": "+91-747-2442211",
+    "email": "gpc.bundi@rajasthan.gov.in"
+  },
+  "overview": "Offering diploma engineering with quality workshop practices and lab facilities.",
+  "branches": [
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 75
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 73
+    },
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 74
+    }
+  ],
+  "admission_process": "DTE Rajasthan online counseling.",
+  "eligibility": "10th pass with 35%.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum"
+  },
+  "scholarships": [
+    "SJED Post-Matric",
+    "Mukhyamantri Scheme",
+    "AICTE Pragati"
+  ],
+  "hostel_facilities": "Hostel with mess and sports.",
+  "placements": {
+    "average_package": "₹2.50 LPA",
+    "highest_package": "₹4.00 LPA",
+    "top_recruiters": [
+      "ACC Cement",
+      "Mangalam Cement",
+      "Kota Thermal"
+    ]
+  },
+  "campus_facilities": "Computer lab, workshop, library, playground."
+}

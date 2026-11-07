@@ -1,0 +1,68 @@
+{
+  "name": "Government Polytechnic College, Bikaner",
+  "code": "gpcbikaner",
+  "city": "Bikaner",
+  "established": 1961,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 80,
+  "website": "https://hte.rajasthan.gov.in/college/gpcbikaner",
+  "contact": {
+    "address": "Karni Industrial Area, Bikaner, Rajasthan - 334001",
+    "phone": "+91-151-2250100",
+    "email": "gpc.bikaner@rajasthan.gov.in",
+    "helpline": "1800-180-6127"
+  },
+  "overview": "Government Polytechnic College, Bikaner is a leading center of technical learning in Western Rajasthan, pioneering solar energy and desert civil engineering technologies alongside traditional engineering branches.",
+  "branches": [
+    {
+      "branch": "Electrical Engineering (Renewable/Solar)",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 79
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 74
+    },
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 76
+    },
+    {
+      "branch": "Computer Science & Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 81
+    }
+  ],
+  "admission_process": "Centralized admission via DTE Rajasthan portal on the basis of 10th percentage.",
+  "eligibility": "Minimum 35% in 10th board with Science & Math.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum",
+    "fee_exemptions": "Full tuition fee waiver for all female students."
+  },
+  "scholarships": [
+    "SJED Rajasthan Post-Matric Scholarship",
+    "Mukhyamantri Chhatravriti",
+    "AICTE Pragati"
+  ],
+  "hostel_facilities": "Boys and Girls hostels with mess, desert air-cooling systems, indoor games.",
+  "placements": {
+    "average_package": "₹2.60 - ₹3.50 LPA",
+    "highest_package": "₹5.20 LPA",
+    "top_recruiters": [
+      "Adani Solar",
+      "Tata Power Solar",
+      "Bikaner Ceramics",
+      "Hero MotoCorp",
+      "L&T"
+    ]
+  },
+  "campus_facilities": "Solar energy demonstration park, testing labs, computer labs, library."
+}

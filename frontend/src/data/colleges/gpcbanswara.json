@@ -1,0 +1,59 @@
+{
+  "name": "Government Polytechnic College, Banswara",
+  "code": "gpcbanswara",
+  "city": "Banswara",
+  "established": 1996,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 75,
+  "website": "https://hte.rajasthan.gov.in/college/gpcbanswara",
+  "contact": {
+    "address": "Khandu Colony, Banswara, Rajasthan - 327001",
+    "phone": "+91-2962-251234",
+    "email": "gpc.banswara@rajasthan.gov.in"
+  },
+  "overview": "Government Polytechnic College Banswara caters to tribal and rural youth of southern Rajasthan, offering affordable technical education and skill-building.",
+  "branches": [
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 72
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 73
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 70
+    }
+  ],
+  "admission_process": "Through DTE Rajasthan centralized portal. Special fee concessions and reservation for TSP (Tribal Sub-Plan) area candidates.",
+  "eligibility": "10th pass with Science & Math with 35% minimum marks.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum"
+  },
+  "scholarships": [
+    "TAD (Tribal Area Development) Department Scholarships with 100% reimbursement and stipends",
+    "Mukhyamantri Chhatravriti",
+    "AICTE Pragati"
+  ],
+  "hostel_facilities": "Dedicated Tribal Development Department hostels with free boarding and lodging for eligible tribal candidates.",
+  "placements": {
+    "average_package": "₹2.40 - ₹3.00 LPA",
+    "highest_package": "₹4.50 LPA",
+    "top_recruiters": [
+      "Mahi Bajaj Sagar Hydro Project",
+      "Mewar Polytex",
+      "Tata Motors",
+      "Hero"
+    ]
+  },
+  "campus_facilities": "Laboratories, workshop, library, computer center, playground."
+}

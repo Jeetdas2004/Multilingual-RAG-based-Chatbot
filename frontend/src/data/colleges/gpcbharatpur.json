@@ -1,0 +1,58 @@
+{
+  "name": "Government Polytechnic College, Bharatpur",
+  "code": "gpcbharatpur",
+  "city": "Bharatpur",
+  "established": 1990,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 72,
+  "website": "https://hte.rajasthan.gov.in/college/gpcbharatpur",
+  "contact": {
+    "address": "Sewar Road, Bharatpur, Rajasthan - 321001",
+    "phone": "+91-5644-222333",
+    "email": "gpc.bharatpur@rajasthan.gov.in"
+  },
+  "overview": "Located near eastern Rajasthan border and Agra-Mathura industrial region, providing engineering diploma degrees in core branches.",
+  "branches": [
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 71
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 72
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 69
+    }
+  ],
+  "admission_process": "Through DTE Rajasthan centralized counseling on 10th merit.",
+  "eligibility": "10th pass with 35%.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum"
+  },
+  "scholarships": [
+    "SJED Post-Matric",
+    "Mukhyamantri Scholarship",
+    "AICTE Pragati"
+  ],
+  "hostel_facilities": "Hostel for boys and girls with mess facilities.",
+  "placements": {
+    "average_package": "₹2.60 LPA",
+    "highest_package": "₹4.50 LPA",
+    "top_recruiters": [
+      "Simplex Castings",
+      "Indian Oil Mathura",
+      "Tata Motors"
+    ]
+  },
+  "campus_facilities": "Workshop, computer center, library, labs."
+}

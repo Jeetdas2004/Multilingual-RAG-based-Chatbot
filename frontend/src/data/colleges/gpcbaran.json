@@ -1,0 +1,58 @@
+{
+  "name": "Government Polytechnic College, Baran",
+  "code": "gpcbaran",
+  "city": "Baran",
+  "established": 2007,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 78,
+  "website": "https://hte.rajasthan.gov.in/college/gpcbaran",
+  "contact": {
+    "address": "Shahabad Road, Baran, Rajasthan - 325205",
+    "phone": "+91-7453-234567",
+    "email": "gpc.baran@rajasthan.gov.in"
+  },
+  "overview": "Serving the Hadoti region with technical skill education in Civil, Electrical, and Mechanical streams.",
+  "branches": [
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 73
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 75
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 71
+    }
+  ],
+  "admission_process": "DTE Rajasthan online counseling.",
+  "eligibility": "10th Pass with 35%.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum"
+  },
+  "scholarships": [
+    "SJED Post-Matric",
+    "Mukhyamantri Scheme",
+    "AICTE Pragati"
+  ],
+  "hostel_facilities": "Boys hostel with mess and recreation.",
+  "placements": {
+    "average_package": "₹2.50 LPA",
+    "highest_package": "₹4.20 LPA",
+    "top_recruiters": [
+      "Chhabra Thermal Power Plant",
+      "Adani Power Kawai",
+      "L&T"
+    ]
+  },
+  "campus_facilities": "Modern labs, workshop, library, computer room."
+}

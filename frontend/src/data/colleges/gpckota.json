@@ -1,0 +1,73 @@
+{
+  "name": "Government Polytechnic College, Kota",
+  "code": "gpckota",
+  "city": "Kota",
+  "established": 1960,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur",
+  "min_score": 82,
+  "website": "https://hte.rajasthan.gov.in/college/gpckota",
+  "contact": {
+    "address": "Rawatbhata Road, Kota, Rajasthan - 324010",
+    "phone": "+91-744-2470123",
+    "email": "gpc.kota@rajasthan.gov.in",
+    "helpline": "1800-180-6127"
+  },
+  "overview": "Situated in Kota, the education capital of Rajasthan, this institution is surrounded by major thermal and nuclear power plants, chemical industries, and manufacturing zones, providing rich practical knowledge.",
+  "branches": [
+    {
+      "branch": "Electrical Engineering (Power Systems)",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 82
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 79
+    },
+    {
+      "branch": "Chemical Engineering",
+      "intake": 40,
+      "duration": "3 Years",
+      "min_cutoff_percent": 76
+    },
+    {
+      "branch": "Instrumentation & Control",
+      "intake": 40,
+      "duration": "3 Years",
+      "min_cutoff_percent": 73
+    },
+    {
+      "branch": "Computer Science & Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 81
+    }
+  ],
+  "admission_process": "Admissions through DTE Rajasthan centralized counseling on 10th merit.",
+  "eligibility": "10th pass with Science & Math with minimum 35%.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum"
+  },
+  "scholarships": [
+    "SJED Post-Matric Scholarship",
+    "Mukhyamantri Chhatravriti",
+    "AICTE Pragati Scheme"
+  ],
+  "hostel_facilities": "Boys hostel (120 capacity), Girls hostel (60 capacity), mess, sports amenities.",
+  "placements": {
+    "average_package": "₹3.10 - ₹4.00 LPA",
+    "highest_package": "₹6.20 LPA",
+    "top_recruiters": [
+      "Kota Thermal Power Station",
+      "DCM Shriram",
+      "Chambal Fertilisers",
+      "L&T",
+      "Thermax"
+    ]
+  },
+  "campus_facilities": "Instrumentation labs, Process control simulator, Central workshop, Smart classrooms, High-speed internet."
+}

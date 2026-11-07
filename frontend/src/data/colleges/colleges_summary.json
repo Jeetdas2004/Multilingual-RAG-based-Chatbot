@@ -1,0 +1,200 @@
+[
+  {
+    "code": "gpcajmer",
+    "name": "Government Polytechnic College, Ajmer",
+    "city": "Ajmer",
+    "minScore": 85,
+    "established": 1958,
+    "branches": [
+      "Computer Science & Engineering",
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Electronics Engineering",
+      "Automobile Engineering"
+    ],
+    "average_package": "₹2.80 - ₹3.60 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcajmer"
+  },
+  {
+    "code": "gpcalwar",
+    "name": "Government Polytechnic College, Alwar",
+    "city": "Alwar",
+    "minScore": 80,
+    "established": 1960,
+    "branches": [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Computer Science & Engineering",
+      "Civil Engineering",
+      "Chemical Engineering"
+    ],
+    "average_package": "₹2.60 - ₹3.40 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcalwar"
+  },
+  {
+    "code": "gpcjaipur",
+    "name": "Government Polytechnic College, Jaipur",
+    "city": "Jaipur",
+    "minScore": 88,
+    "established": 1962,
+    "branches": [
+      "Computer Science & Engineering",
+      "Information Technology",
+      "Electrical Engineering",
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electronics & Telecommunication"
+    ],
+    "average_package": "₹3.20 - ₹4.20 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcjaipur"
+  },
+  {
+    "code": "gpcbikaner",
+    "name": "Government Polytechnic College, Bikaner",
+    "city": "Bikaner",
+    "minScore": 80,
+    "established": 1961,
+    "branches": [
+      "Electrical Engineering (Renewable/Solar)",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Computer Science & Engineering"
+    ],
+    "average_package": "₹2.60 - ₹3.50 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcbikaner"
+  },
+  {
+    "code": "gpcjodhpur",
+    "name": "Government Polytechnic College, Jodhpur",
+    "city": "Jodhpur",
+    "minScore": 83,
+    "established": 1958,
+    "branches": [
+      "Computer Science & Engineering",
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Petroleum & Chemical Engineering"
+    ],
+    "average_package": "₹3.00 - ₹3.80 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcjodhpur"
+  },
+  {
+    "code": "gpckota",
+    "name": "Government Polytechnic College, Kota",
+    "city": "Kota",
+    "minScore": 82,
+    "established": 1960,
+    "branches": [
+      "Electrical Engineering (Power Systems)",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Instrumentation & Control",
+      "Computer Science & Engineering"
+    ],
+    "average_package": "₹3.10 - ₹4.00 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpckota"
+  },
+  {
+    "code": "gpcbanswara",
+    "name": "Government Polytechnic College, Banswara",
+    "city": "Banswara",
+    "minScore": 75,
+    "established": 1996,
+    "branches": [
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering"
+    ],
+    "average_package": "₹2.40 - ₹3.00 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcbanswara"
+  },
+  {
+    "code": "gpcbaran",
+    "name": "Government Polytechnic College, Baran",
+    "city": "Baran",
+    "minScore": 78,
+    "established": 2007,
+    "branches": [
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering"
+    ],
+    "average_package": "₹2.50 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcbaran"
+  },
+  {
+    "code": "gpcbarmer",
+    "name": "Government Polytechnic College, Barmer",
+    "city": "Barmer",
+    "minScore": 70,
+    "established": 2008,
+    "branches": [
+      "Petroleum Engineering & Refining",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering"
+    ],
+    "average_package": "₹3.00 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcbarmer"
+  },
+  {
+    "code": "gpcbharatpur",
+    "name": "Government Polytechnic College, Bharatpur",
+    "city": "Bharatpur",
+    "minScore": 72,
+    "established": 1990,
+    "branches": [
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering"
+    ],
+    "average_package": "₹2.60 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcbharatpur"
+  },
+  {
+    "code": "gpcbhilwara",
+    "name": "Government Polytechnic College, Bhilwara",
+    "city": "Bhilwara",
+    "minScore": 74,
+    "established": 1988,
+    "branches": [
+      "Textile Technology & Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Civil Engineering"
+    ],
+    "average_package": "₹2.80 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcbhilwara"
+  },
+  {
+    "code": "gpcbundi",
+    "name": "Government Polytechnic College, Bundi",
+    "city": "Bundi",
+    "minScore": 77,
+    "established": 2008,
+    "branches": [
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering"
+    ],
+    "average_package": "₹2.50 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcbundi"
+  },
+  {
+    "code": "gpcchittorgarh",
+    "name": "Government Polytechnic College, Chittorgarh",
+    "city": "Chittorgarh",
+    "minScore": 73,
+    "established": 2006,
+    "branches": [
+      "Mining Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Civil Engineering"
+    ],
+    "average_package": "₹2.80 LPA",
+    "website": "https://hte.rajasthan.gov.in/college/gpcchittorgarh"
+  }
+]

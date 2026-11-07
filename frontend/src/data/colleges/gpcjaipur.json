@@ -1,0 +1,85 @@
+{
+  "name": "Government Polytechnic College, Jaipur",
+  "code": "gpcjaipur",
+  "city": "Jaipur",
+  "established": 1962,
+  "type": "Government Polytechnic Institute",
+  "affiliated_to": "Board of Technical Education Rajasthan (BTER), Jodhpur & Approved by AICTE",
+  "min_score": 88,
+  "website": "https://hte.rajasthan.gov.in/college/gpcjaipur",
+  "contact": {
+    "address": "Residency Road, Jodhpur / JLN Marg, Jaipur, Rajasthan",
+    "phone": "+91-141-2702111",
+    "email": "gpc.jaipur@rajasthan.gov.in",
+    "helpline": "1800-180-6127"
+  },
+  "overview": "Government Polytechnic College, Jaipur is the premier capital institution for technical education in Rajasthan, renowned for academic excellence, state-of-the-art incubation facilities, robotics club, and strong placements in IT, robotics, and core engineering companies.",
+  "branches": [
+    {
+      "branch": "Computer Science & Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 86
+    },
+    {
+      "branch": "Information Technology",
+      "intake": 40,
+      "duration": "3 Years",
+      "min_cutoff_percent": 84
+    },
+    {
+      "branch": "Electrical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 82
+    },
+    {
+      "branch": "Civil Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 80
+    },
+    {
+      "branch": "Mechanical Engineering",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 78
+    },
+    {
+      "branch": "Electronics & Telecommunication",
+      "intake": 60,
+      "duration": "3 Years",
+      "min_cutoff_percent": 75
+    }
+  ],
+  "admission_process": "Admissions through DTE Rajasthan centralized online counseling system via SSO Rajasthan. 85% seats are reserved for Rajasthan state domicile candidates, 15% open merit.",
+  "eligibility": "10th pass with Science & Math with minimum 35% aggregate marks.",
+  "fee_structure": {
+    "tuition_fee_gas": "₹7,200 per annum",
+    "tuition_fee_sfs": "₹21,000 per annum",
+    "development_fee": "₹1,500 per annum",
+    "caution_money": "₹1,000 (Refundable)"
+  },
+  "scholarships": [
+    "Rajasthan Mukhyamantri Uchh Shiksha Chhatravriti Scheme.",
+    "Social Justice Department Post-Matric Scholarship.",
+    "AICTE Pragati & Saksham Schemes.",
+    "Merit-cum-means assistance by alumni association."
+  ],
+  "hostel_facilities": "Two modern hostels for boys and girls on campus, spacious dining hall, solar water heating, high-speed optical fiber internet, outdoor sports fields.",
+  "placements": {
+    "average_package": "₹3.20 - ₹4.20 LPA",
+    "highest_package": "₹6.80 LPA",
+    "placement_rate": "89%",
+    "top_recruiters": [
+      "Infosys BPM",
+      "Tata Consultancy Services",
+      "Bosch Jaipur",
+      "Mahindra & Mahindra",
+      "Genpact",
+      "Wipro Infrastructure",
+      "L&T"
+    ]
+  },
+  "campus_facilities": "Advanced IoT and AI lab, Cisco networking academy, modern library with IEEE online access, auditorium seating 600 students, cafeteria, gym."
+}

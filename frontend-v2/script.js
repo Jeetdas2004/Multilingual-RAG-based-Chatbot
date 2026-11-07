@@ -93,8 +93,12 @@ const newsTitle = document.getElementById("news-title");
 const newsDesc = document.getElementById("news-desc");
 const newsIndicatorBar = document.getElementById("news-indicator-bar");
 
-// API Base URL
-const API_BASE = "http://localhost:8000";
+// API Base URL - Automatically adapts to deployed Vercel domain or local server
+const API_BASE = window.PRAGYA_API_BASE || (
+  (typeof window !== "undefined" && (window.location.protocol === "file:" || window.location.port === "5500" || window.location.port === "8080" || window.location.hostname === "127.0.0.1"))
+    ? "http://localhost:8000"
+    : ""
+);
 
 // ---------------- Helper Functions ----------------
 
